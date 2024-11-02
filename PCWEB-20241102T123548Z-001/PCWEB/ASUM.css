@@ -1,0 +1,69 @@
+/* User Credentials Section Styles */
+.user-credentials {
+  padding: 40px 20px; /* Increased padding for more spacious feel */
+  background-color: #fafafa; /* Slightly brighter background */
+  border-radius: 5px; /* More rounded corners for a modern look */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Slightly larger shadow for depth */
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 40px auto; /* Add top and bottom margin to create space */
+}
+
+.user-credentials h2 {
+  font-size: 2.2rem; /* Slightly smaller but still prominent */
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+  font-weight: 600; /* Semi-bold for a more polished look */
+}
+
+.user-credentials p {
+  font-size: 1.15rem; /* Slightly increased for readability */
+  color: #555; /* Softer color for better readability */
+  margin: 12px 0;
+  line-height: 1.7;
+}
+
+.user-credentials strong {
+  color: #222; /* Darker bold text for emphasis */
+  font-weight: 700; /* Make labels more distinctive */
+}
+
+.logout-form {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.logout-form button {
+  padding: 12px 25px; /* Larger button for better touch experience */
+  background-color: #8a00fc;/* Retain existing color */
+  color: #000000;
+  border: #222; /* Add width and style (e.g., solid) */
+  border-radius: 4px; /* More rounded corners */
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+}
+
+.logout-form button:hover {
+  background-color: #8b00fc98; /* Darker hover color */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+/* Subtle animation for the section on load */
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.user-credentials {
+  animation: fadeInUp 0.6s ease-in-out;
+}
+

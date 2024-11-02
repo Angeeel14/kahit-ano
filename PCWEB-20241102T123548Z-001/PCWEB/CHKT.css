@@ -1,0 +1,117 @@
+/* General container for Cart and Checkout */
+.CHOTR {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Cart Table */
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.product-thumbnail img {
+  width: 80px;
+  height: auto;
+}
+
+.product-name h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.totals-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.cart-totals {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.cart-totals h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.cart-totals span {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Checkout Form */
+.form-group {
+  margin-bottom: 20px;
+  padding-right: 10px;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #333;
+  font-size: 16px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.form-control:focus {
+  border-color: #8a00fc;
+  outline: none;
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+
+select.form-control {
+  appearance: none;
+}
+
+/* Checkout Button */
+.btn-primary {
+  background-color: #8a00fc;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 2px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #6d00c3;
+}
